@@ -6,17 +6,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 import { AppMaterialModule } from './app.material.module';
-import { AppComponent, DialogContentComponent } from './app.component';
+import { AppComponent } from './app.component';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    AppMaterialModule,
-    BrowserAnimationsModule
+    MaterialModule,
+    BrowserAnimationsModule,
   ],
-  declarations: [AppComponent, DialogContentComponent],
-  entryComponents: [DialogContentComponent],
+  declarations: [AppComponent],
+
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

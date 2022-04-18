@@ -9,6 +9,17 @@
     indicated on the invoice of the policies were issued during the billing
     period.
   </p>
+  
+
+<mat-paginator [length]="length"
+               [pageSize]="pageSize"
+               [pageSizeOptions]="pageSizeOptions"
+               (page)="pageEvent = $event"
+               aria-label="Select page">
+</mat-paginator>
+
+
+
 </div>
 <div class="side-container">
   <mat-icon>close</mat-icon>
