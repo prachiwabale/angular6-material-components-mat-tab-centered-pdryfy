@@ -56,6 +56,7 @@ p {
   opacity: 1;
   position: absolute;
   background: #f6f8f9 0% 0% no-repeat padding-box;
+  margin: 25px 50px 75px 100px;
 }
 .side-container {
   position: absolute;
@@ -91,13 +92,12 @@ h2 {
   border: 2px solid #cccccc;
   opacity: 1;
 }
-.success callout {
-  position: absolute;
-  top: 10vh;
-  left: 1900px;
-  width: 21vw;
-  height: 21px;
-  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
-  /* UI Properties */
-  opacity: 1;
+.b{
+  top: 50px;
+left: 1000px;
+width: 21px;
+height:20vh;
+transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+/* UI Properties */
+opacity: 1;
 }
