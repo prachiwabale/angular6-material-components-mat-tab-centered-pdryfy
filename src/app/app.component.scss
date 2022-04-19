@@ -92,27 +92,29 @@ h2 {
   border: 2px solid #cccccc;
   opacity: 1;
 }
-.b{
+.b {
   position: absolute;
   top: 0vh;
-left: 200px;
-width: 21px;
-height:20vh;
+  left: 200px;
+  width: 21px;
+  height: 20vh;
 
-/* UI Properties */
-opacity: 1;
+  /* UI Properties */
+  opacity: 1;
 }
-.news
-{
- position: absolute;
- top:7vh;
-left: 50px;
-width: 68px;
-height: 27px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 24px/20px Proxima Nova;
-letter-spacing: 0px;
-color: #555555;
-opacity: 1;
+.news {
+  position: absolute;
+  top: 7vh;
+  left: 50px;
+  width: 68px;
+  height: 27px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 24px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+h1 {
+  text-decoration: belowline;
 }
