@@ -1,16 +1,17 @@
 .a {
   position: absolute;
-  top: 0vh;
+  top: -4vh;
   left: 0px;
   width: 207vh;
   height: 45px;
   /* UI Properties */
   background: #ecfaff 0% 0% no-repeat padding-box;
   opacity: 1;
+  border-bottom: 1px solid #00a7e1;
 }
 .text1 {
   position: absolute;
-  top: 7vh;
+  top: 2vh;
   left: 0px;
   width: 297px;
   height: 36px;
@@ -25,7 +26,7 @@
 }
 .paragraph5 {
   position: absolute;
-  top: 15vh;
+  top: 8vh;
   left: 0px;
   width: 750px;
   height: 100px;
@@ -43,18 +44,19 @@
   top: 100px;
   left: 0px;
   width: 70vw;
-  height: 84vh;
+  height: 84.2vh;
   /* UI Properties */
 
   opacity: 1;
   background: #f6f8f9 0% 0% no-repeat padding-box;
+  border-bottom: 1px solid #00a7e1;
 }
 .side-container {
   position: absolute;
   top: 100px;
   left: 960px;
   width: 29.3vw;
-  height: 84vh;
+  height: 84.2vh;
   opacity: 1;
 }
 .right-side {
@@ -81,7 +83,7 @@
 }
 .news {
   position: relative;
-  top: 10vh;
+  top: 5vh;
   left: 0vh;
   width: 68px;
   height: 27px;
@@ -92,7 +94,7 @@
 }
 .uderlinetext1 {
   position: absolute;
-  top: 22vh;
+  top: 18vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -107,7 +109,7 @@
 }
 .uderlinetext2 {
   position: absolute;
-  top: 30vh;
+  top: 28vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -122,7 +124,7 @@
 }
 .uderlinetext3 {
   position: absolute;
-  top: 40vh;
+  top: 38vh;
   left: 5vh;
   width: 250px;
   padding-top: 25px;
@@ -137,7 +139,7 @@
 }
 .uderlinetext4 {
   position: absolute;
-  top: 50vh;
+  top: 48vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -153,7 +155,7 @@
 
 .paragraphtext1 {
   position: absolute;
-  top: 25vh;
+  top: 22vh;
   left: 5vh;
   width: 350px;
   height: 69px;
@@ -165,7 +167,7 @@
 }
 .paragraphtext2 {
   position: absolute;
-  top: 36vh;
+  top: 34vh;
   left: 5vh;
   width: 350px;
   height: 69px;
@@ -177,7 +179,7 @@
 }
 .paragraphtext3 {
   position: absolute;
-  top: 47vh;
+  top: 45vh;
   left: 5vh;
   width: 350px;
   height: 69px;
@@ -189,7 +191,7 @@
 }
 .paragraphtext4 {
   position: absolute;
-  top: 59vh;
+  top: 57vh;
   left: 5vh;
   width: 350px;
   height: 69px;
@@ -205,7 +207,7 @@ ul {
 }
 .line {
   position: absolute;
-  top: 17vh;
+  top: 12vh;
   left: 5vh;
   color: #cccccc;
 }
@@ -221,4 +223,37 @@ ul {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+}
+.lessthan {
+  position: relative;
+  top: -3vh;
+  left: 37vh;
+  width: 12px;
+  height: 20px;
+  font-style: bold;
+}
+.greaterthan {
+  position: relative;
+  top: -9vh;
+  left: 45vh;
+  width: 12px;
+  height: 20px;
+  font-style: bold;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
