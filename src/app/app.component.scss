@@ -49,7 +49,7 @@
 
   opacity: 1;
   background: #f6f8f9 0% 0% no-repeat padding-box;
-  border-bottom: 1px solid #00a7e1;
+  border-bottom: 1px solid #0070a9;
 }
 .side-container {
   position: absolute;
@@ -109,7 +109,7 @@
 }
 .uderlinetext2 {
   position: absolute;
-  top: 28vh;
+  top: 29vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -124,7 +124,7 @@
 }
 .uderlinetext3 {
   position: absolute;
-  top: 38vh;
+  top: 40vh;
   left: 5vh;
   width: 250px;
   padding-top: 25px;
@@ -139,7 +139,7 @@
 }
 .uderlinetext4 {
   position: absolute;
-  top: 48vh;
+  top: 52vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -167,9 +167,9 @@
 }
 .paragraphtext2 {
   position: absolute;
-  top: 34vh;
+  top: 35vh;
   left: 5vh;
-  width: 350px;
+  width: 319px;
   height: 69px;
 
   font: normal normal normal 14px/18px Proxima Nova;
@@ -179,11 +179,10 @@
 }
 .paragraphtext3 {
   position: absolute;
-  top: 45vh;
+  top: 48vh;
   left: 5vh;
-  width: 350px;
+  width: 319px;
   height: 69px;
-
   font: normal normal normal 14px/18px Proxima Nova;
   letter-spacing: 0px;
   color: #555555;
@@ -191,9 +190,9 @@
 }
 .paragraphtext4 {
   position: absolute;
-  top: 57vh;
+  top: 61vh;
   left: 5vh;
-  width: 350px;
+  width: 319px;
   height: 69px;
 
   font: normal normal normal 14px/18px Proxima Nova;
@@ -224,28 +223,14 @@ ul {
   color: #ffffff;
   opacity: 1;
 }
-.lessthan {
-  position: relative;
-  top: -3vh;
-  left: 37vh;
-  width: 12px;
-  height: 20px;
-  font-style: bold;
-}
-.greaterthan {
-  position: relative;
-  top: -9vh;
-  left: 45vh;
-  width: 12px;
-  height: 20px;
-  font-style: bold;
-}
-
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
+  width: 4px;
+  height: 4px;
+  opacity: 1;
 }
 
 .right {
