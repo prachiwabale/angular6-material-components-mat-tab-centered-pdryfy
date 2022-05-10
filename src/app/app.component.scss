@@ -1,15 +1,26 @@
-.a {
+.dotstyle {
   position: absolute;
   top: 50px;
   left: 57px;
-  width: 96px;
+  width: 500px;
   height: 21px;
   font: normal normal normal 20px/20px Proxima Nova;
   letter-spacing: 0px;
-  color: #3b3b3b;
+  color: #8d8a8a;
   opacity: 1;
 }
-.main-area {
+.correctstyle {
+  position: absolute;
+  top: 60px;
+  left: 960px;
+  width: 500px;
+  height: 21px;
+  font: normal normal normal 20px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #8d8a8a;
+  opacity: 1;
+}
+.style1 {
   position: absolute;
   top: 20px;
   left: 200px;
@@ -17,21 +28,44 @@
   height: 174px;
   opacity: 100%;
 }
-.main-area > h2 {
+.style2 {
+  position: absolute;
+  top: 25px;
+  left: 300px;
+  width: 463px;
+  height: 174px;
+  opacity: 100%;
+}
+.style1 > h2 {
   position: absolute;
   top: 15px;
   left: 70px;
+  width: 300px;
+  height: 21px;
   font: normal normal normal 26px/24px Proxima Nova;
   letter-spacing: 0px;
-  color: #726969;
+  color: #8d8a8a;
+  opacity: 100%;
+}
+.style2 > h2 {
+  position: absolute;
+  top: 20px;
+  left: 1000px;
+  width: 300px;
+  height: 21px;
+  font: normal normal normal 26px/24px Proxima Nova;
+  letter-spacing: 0px;
+  color: #8d8a8a;
   opacity: 100%;
 }
 
-.prachi {
+.correctstyle {
   list-style: none;
 }
 
-.prachi li:before {
-  content: '✓';
-  color: red;
+.correctstyle li:before {
+  content: '✓ ';
+  color: #c75000;
+  width: 18px;
+  height: 12.32;
 }
